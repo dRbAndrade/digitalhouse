@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    color: var(--alt-color);
+}
+a{
+    color: var(--title-color)
+}
+#forget{
+    position: relative;
+    transition: all 1s ease-in-out;
+}
+#forget::after{
+    content: "";
+    background-image: url(../assets/eeucomisso.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 20%;
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 110%;
+    top: 25%;
+    transition: all 1s ease-in-out;
+}
+#forget:focus::after{
+    width: 120px;
+    height: 120px;
+}
+#vid{
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    z-index: -1;
+}
+
+#logo{
+    width: 15.8rem;
+    height: 2.585rem;
+}
+#keepConnectedLabel{
+    font: 600 16px 'Source Sans Pro', sans-serif;
+}
+#mainBox{
+    height: 100vh;
+}
+#welcome h1{
+    text-align: center;
+    text-shadow: 1px 1px 1px #000;
+}
+#formBox{
+    /* height: 80%; */
+    box-sizing: content-box;
+    background-color: var(--body-color);
+    padding: 2.375rem 1.6875rem 2.8125rem;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 5px #000;
+}
+:root{
+    --hue: 160;
+    --hue-alt: 268;
+    --base-color: hsl(var(--hue) 0% 7%);
+    --alt-color: hsl(var(--hue-alt) 47% 73%);
+    --body-color: hsl(var(--hue) 0% 13%);
+    --title-color: hsl(var(--hue) 94% 58%);
+    --text-color: hsl(var(--hue) 0% 100%);
+    --link-color: hsl(var(--hue) 0% 100%); 
+}
+.formInput{
+    border-radius: 20px;
+}
+
+.formButton{
+    width: 100%;
+    border-radius: 20px;
+    border: none;
+    background-color: hsl(var(--hue-alt), 47%, 40%);
+    color: var(--title-color);
+}
+.formButton:hover{
+    background-color: hsl(var(--hue-alt), 47%,60% );
+}
+.icon{
+    width: 1.2em;
+    height: 1.2em;
+    margin: 0px 0.3em;
+}
+.form-label{
+    font: 600 16px 'Source Sans Pro', sans-serif;
+}

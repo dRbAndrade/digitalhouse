@@ -1,0 +1,90 @@
+body{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    background-image: url("../assets/dota2bg.png");
+    background-size: auto 100vh;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+button{
+    opacity: 1;
+    width: fit-content;
+    place-self: center;
+    padding:0.5em;
+    background-color:#101010;
+    color: #F00;
+    cursor: pointer;
+    transition: opacity 0.5s linear;
+}
+textarea{
+    resize: none;
+}
+.player.card, .player.card :not(h1):not(img){
+    background-color: #111;
+    color: #C22;
+    font-size: 1rem;
+    margin: 0.3rem 0;
+    align-self: flex-start;
+}
+.player.card h1{
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+.player.card, .player.card button{
+    align-self: center;
+    justify-self: center;
+}
+
+.player.card input[type=text]{
+    border: none;
+    border-bottom: 1px solid #555;
+}
+.player.card{
+    opacity: 1;
+    transition: opacity 0.5s linear;
+    height: fit-content;
+}
+.player.card.fade{
+    opacity: 0;
+    transition: opacity 0.5s linear;
+}
+.fade{
+    opacity: 0;
+    transition: opacity 0.5s linear;
+}
+.hidden{
+    display: none;
+}
+.player.card :not(h1).invalid{
+    border: 1px solid red;
+}
+.card .star{
+    width: 100%;
+    height: 2rem;
+}
+.card{
+    min-width: 200px;
+    width: fit-content;
+    cursor: initial;
+}
+.card img{
+    width: 100%
+}
+.card .rank{
+    width: 50%;
+    height: 50%;
+    max-width: 200px;
+    max-height: 200px;
+}
+.card:hover{
+    transform: none;
+}
+@media (orientation:landscape) {
+    body{
+        background-size: 100% auto;
+    }
+}

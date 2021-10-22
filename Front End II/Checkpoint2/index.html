@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/global.css">
+        <title>Checkpoint02</title>
+    </head>
+    <body>
+        <form>
+            <img class = "light-mode-img" alt="">
+            <input type="date" name="criacao" id="data-criacao" disabled>
+            <label class="hidden" for="data-limite" id="data-limite-label">Campo inválido</label>
+            <input type="date" name="data-limite" id="data-limite">
+            <label class="hidden" for="descricao" id="descricao-label">Campo inválido</label>
+            <textarea name="descricao" id="descricao" placeholder="Descrição da Tarefa. Min: 10 caracteres"></textarea>
+            <div class = "button-container">
+                <div class="mock-container">
+                    <button id="load-mock" class="button mock">Carregar Mock</button>
+                    <img src="./assets/loading.png" class="loading hidden" alt="loading">
+                </div>
+                <button id="submit" class="button add">+</button>
+            </div>
+        </form>
+        <section id="tasks">
+
+        </section>
+        <script src="./js/main.js"></script>
+    </body>
+</html>

@@ -1,0 +1,48 @@
+.container,.card{
+    display: flex;
+    align-items:center;
+    justify-content:space-around;
+    flex-direction: column;
+}
+.container.color{
+    width: 100%;
+    margin: 0.25rem 0;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.container.header{
+    flex-direction: row;
+    margin-bottom: 3rem;
+}
+.color-input{
+    width: 40%;
+}
+.hidden{
+    visibility: hidden;
+}
+.card{
+    width: fit-content;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    place-self: center;
+    border-radius: 5px;
+    box-shadow: 0 0 8px 1px black;
+    padding: 0 1em 1em;
+}
+#title-input{
+    /* width: 100%; */
+    margin: 0.25rem 0;
+}
+#card-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+button,select{
+    width: 7.5rem;
+    margin: 0.3rem;
+}
+h1{
+    margin: 0.5em 0;
+}

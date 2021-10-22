@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./css/root.css">
+    <title>Cadastro de Usuário</title>
+    <link rel="shortcut icon" href="https://bit.ly/3A3e9mt" type="image/x-icon">
+</head>
+
+<body>
+    <main>
+        <div id="formBox">
+            <form>
+                <fieldset id="ibFieldset">
+                    <legend id="ibLegend">Informações Basicas</legend>
+                    <input type="text" name="firstName" id="ibName" class="formField" placeholder="Nome">
+                    <input type="text" name="lastName" id="ibLastName" class="formField" placeholder="Sobrenome"><br>
+                    <input type="email" name="email" class="formField" id="email" placeholder="Email"><br>
+                    <label id="ibStateLabel" for="state">Estado: </label>
+                    <select name="state" id="stateDropBox">
+                        <option value="" selected>UF</option>
+                        <option value="">AC</option>
+                        <option value="">AL</option>
+                        <option value="">AM</option>
+                        <option value="">AP</option>
+                        <option value="">BA</option>
+                        <option value="">CE</option>
+                        <option value="">DF</option>
+                        <option value="">ES</option>
+                        <option value="">GO</option>
+                        <option value="">MA</option>
+                        <option value="">MG</option>
+                        <option value="">MS</option>
+                        <option value="">MT</option>
+                        <option value="">PA</option>
+                        <option value="">PB</option>
+                        <option value="">PE</option>
+                        <option value="">PI</option>
+                        <option value="">PR</option>
+                        <option value="">RJ</option>
+                        <option value="">RN</option>
+                        <option value="">RO</option>
+                        <option value="">RR</option>
+                        <option value="">RS</option>
+                        <option value="">SC</option>
+                        <option value="">SE</option>
+                        <option value="">SP</option>
+                        <option value="">TO</option>
+                    </select>
+                    <label id="lbDayOfBirth" for="dayOfBirth" class="">Data de Nascimento:</label>
+                    <input type="date" name="dayOfBirth" class="formField" id="dayOfBirth">
+                </fieldset>
+                <br>
+                <fieldset id="iuFieldset">
+                    <legend id="iuLegend">Informações de Usuário</legend>
+                    <input type="text" id="iuUsername" class="formField" name="login" placeholder="Usuário">
+                    <input type="password" id="iuPassword" class="formField" name="password" placeholder="Senha">
+                </fieldset>
+                <div id="buttonBox">
+                    <span class="buttonTranslateYWrapper">
+                        <span id="buttonTranslateXLeftWrapper">
+                            <span id="buttonRotateLeftWrapper">
+                                <input id="submitButton" type="submit" class="button" value="Cadastrar">
+                            </span>
+                        </span>
+                    </span>
+                    <span class="buttonTranslateYWrapper">
+                        <span id="buttonTranslateXRightWrapper">
+                            <span id="buttonRotateRightWrapper">
+                                <input id="resetButton" type="submit" class="button" value="Resetar">
+                            </span>
+                        </span>
+                    </span>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <a href="../06-28/index.html">Voltar</a>
+    </footer>
+</body>
+
+</html>

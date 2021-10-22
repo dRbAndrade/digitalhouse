@@ -1,0 +1,52 @@
+.root{
+    -fx-background-color:#396161;
+}
+
+.image-view{
+    -fx-effect: dropshadow(gaussian, #000,10px,0.2,0,0);
+}
+.lizard-standard{
+    -fx-image:url("lizard.png");
+}
+.lizard-win{
+    -fx-image:url("lizard_win.png");
+}
+.lizard-lose{
+    -fx-image:url("lizard_lose.png");
+}
+.spock-standard{
+    -fx-image:url("spock.png");
+}
+.spock-win{
+    -fx-image:url("spock_win.png");
+}
+.spock-lose{
+    -fx-image:url("spock_lose.png");
+}
+.rock-standard{
+    -fx-image:url("rock.png");
+}
+.rock-win{
+    -fx-image:url("rock_win.png");
+}
+.rock-lose{
+    -fx-image:url("rock_lose.png");
+}
+.paper-standard{
+    -fx-image:url("paper.png");
+}
+.paper-win{
+    -fx-image:url("paper_win.png");
+}
+.paper-lose{
+    -fx-image:url("paper_lose.png");
+}
+.scissors-standard{
+    -fx-image:url("scissors.png");
+}
+.scissors-win{
+    -fx-image:url("scissors_win.png");
+}
+.scissors-lose{
+    -fx-image:url("scissors_lose.png");
+}

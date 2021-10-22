@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="./css/index.css">
+        <link rel="shortcut icon" href="./assets/logo_P_pink.png" type="image/x-icon">
+        <title>Parquinho CV</title>
+    </head>
+    <body>
+        <video id="vid"playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+            <source src="./assets/FogoNoParquinho.mp4" type="video/mp4">
+        </video>
+        <main class="container-fluid pt-5 pb-5 pt-md-0 pb-md-0">
+            <div id="mainBox"class="row row-col-2 d-flex align-items-center justify-content-center align-content-center mt-2 mt-md-0">
+                <div class="col-12 col-md-5 order-md-2 col d-flex align-items-center justify-content-center align-content-center">
+                    <div id="formBox">
+                        <form action="./main.html">
+                            <div class="text-center m-3">
+                                <img id="logo" class="img-fluid" src="./assets/parquinho-verde-agua.png" alt="Logo Parquinho">
+                            </div>
+                            <div class="mb-3">
+                              <label for="email" class="form-label">Email</label>
+                              <input type="email" class="form-control formInput" id="email" aria-describedby="emailHelp">
+                            </div>
+                            <div class="mb-3">
+                              <label for="password" class="form-label">Senha</label>
+                              <input type="password" class="form-control formInput" id="password">
+                            </div>
+                            <div class="d-flex justify-content-between mb-4 mt-4">
+                                <div class="mb-3 form-check">
+                                    <input type="checkbox" class="form-check-input" id="keepConnected">
+                                    <label id="keepConnectedLabel" class="form-check-label" for="keepConnected">Manter sessão</label>
+                                </div>
+                                <a id="forget" href="#">Esqueceu sua senha?</a>
+                            </div>
+                            <button type="submit" class="btn btn-primary mb-2 formButton">Entrar</button>
+                            <!-- <a href="../Checkpoint3/cadastrar.html" class="btn btn-primary mb-2 formButton">Cadastrar</a> -->
+                            <!-- <button type="submit" class="btn btn-primary mt-2 formButton">Acessar com Google<img class="icon" src="./assets/google.png"></button> -->
+                            <div class="text-center mt-3"> <p>Feito com ÓDIO pela<img class="icon" src="./assets/logo_P_verde_lilas.png"></p></div>
+                        </form>
+                    </div>
+                </div>
+                <div id="welcome" class="col-12 mt-3 col-md-7 order-md-1 d-flex align-items-center justify-content-around">
+                    <h1>We welcome you! \o/ <br> TO BOOTSTRAP HELL</h1>
+                </div>
+            </div>
+        </main>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"/>
+        <script src="./js/index.js"/>
+    </body>
+</html>

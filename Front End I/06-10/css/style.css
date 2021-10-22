@@ -1,0 +1,23 @@
+h1 {
+  color: #ff0000;
+}
+body{
+  text-align: center;
+  background-image: url(https://bit.ly/35gjd8A);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100vw;
+  background-size: 100vw;
+  background-attachment: fixed;
+  background-color: #05172F;
+}
+#green{
+  color: #00ff00;
+}
+#blue{
+  color: #0000ff;
+}
+.colors{
+  color: #aaaaaa;
+  font-size: 24px;
+}

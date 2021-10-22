@@ -1,0 +1,44 @@
+.offcanvas {
+    box-shadow: 0 1rem 2rem hsl(160, 94%, 40%);
+    background-color: #111;
+ }
+ .offcanvas-header{
+    background-color: #000;
+ }
+ .accordion-button {
+    background-color: #000;
+    color: var(--alt-color);
+ }
+ 
+ .accordion-button:focus {
+    border-color: fff;
+    box-shadow:none;
+ }
+ 
+ .accordion-button:hover {
+    border-color: none;
+    box-shadow:none;
+    background-color: hsl(var(--hue-alt), 47%,40% );
+    color: hsl(160, 94%, 40%);
+ }
+ .accordion-button:not(.collapsed){
+    background-color: #000;
+    color: var(--alt-color);
+ }
+ 
+ .accordion-button:hover:not(.collapsed){
+    background-color: hsl(var(--hue-alt), 47%,40% );
+    color: hsl(160, 94%, 40%);
+ }
+ .accordion-body {
+    background-color: #212121;
+    color: #fff
+ }
+ button.accordion-button:not(.collapsed)::after {
+   background-image: url(../assets/seta.png);
+   transform: rotate(-180deg);
+}
+
+#offcanvasRightLabel{
+   margin: 0;
+}

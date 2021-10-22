@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/global.css">
+        <link rel="stylesheet" href="./css/dota-trunfo.css">
+        <link rel="shortcut icon" href="./assets/dota2logo.jpg" type="image/x-icon">
+        <title>Dota-Trunfo!</title>
+    </head>
+    <body>
+        
+        <form class="player card">
+            <h1>Jogador:</h1>
+            <label id="nameLabel" class="hidden" for="name">Campo inválido</label>
+            <input type="text" name="name" id="name" placeholder="Seu nome">
+            <label id="photoLabel"class="hidden" for="photo">Campo inválido</label>
+            <input type="text" name="photo" id="photo" placeholder="URL de sua foto">
+            <label id="yearsLabel" class="hidden" for="years">Campo inválido</label>
+            <select name="years" id="years">
+                <option value="">Anos de Jogo</option>
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7+</option>
+            </select>
+            <label id="descriptionLabel" class="hidden" for="description">Campo inválido</label>
+            <textarea name="description" id="description" placeholder="Descreva-se"></textarea>
+            <button id = "save">Salvar</button>
+        </form>
+        <button id = "back" class="hidden fade">Voltar</button>
+        <script src="./js/main.js"></script>
+    </body>
+</html>

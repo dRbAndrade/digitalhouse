@@ -1,0 +1,20 @@
+{
+  "name": "front-end-ii",
+  "version": "1.0.0",
+  "type":"module",
+  "description": "Second part of front-end-ii",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dRbAndrade/frontend2.git"
+  },
+  "author": "dRbAndrade",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dRbAndrade/frontend2/issues"
+  },
+  "homepage": "https://github.com/dRbAndrade/frontend2#readme"
+}

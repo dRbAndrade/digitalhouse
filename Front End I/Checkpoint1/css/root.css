@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100&display=swap');
+html *{
+    margin:0;
+    color:#FFFFFF;
+    font-family: 'Roboto',sans-serif;
+}
+
+header{
+    height: 5vh;
+    display: flex;
+    font-style: italic;
+    align-items: center;
+    justify-content: center;
+    background-color: #C0C0C0;
+}
+h1{
+    font-size: 3em;
+}
+h2{
+    font-size: 2em;
+}
+
+main{
+
+    height: 83vh;
+    padding: 10px 40px;
+    background-image: url(https://bit.ly/3gNmbHi);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#descricao{
+    display: flex;
+    text-align: center;
+    font-size: 1.5em;
+    font-style: italic;
+    align-items: center;
+    margin-bottom: 15px;
+    justify-content: center;
+}
+#descricao strong{
+    display: contents;
+}
+#videoFrame{
+    width: 70%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    justify-content: center;
+}
+#listBox{
+    display: flex;
+    margin-top: 5px;
+    font-style: italic;
+    text-align: left;
+    font-weight: bolder;
+    justify-content: center;
+}
+#listBox h2{
+    margin: 5px;
+}
+footer{
+    height: 7.9vh;
+    display: flex;
+    font-style: italic;
+    align-items: center;
+    justify-content: center;
+}
+.icon{
+    height: 50px;
+    width: 50px;
+}

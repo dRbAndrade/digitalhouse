@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+button{
+  border: none;
+}
+body {
+  background-color: rgb(219, 219, 219);
+  padding: 1rem;
+}
+.body-dark-mode{
+  background-color: rgb(36, 36, 36);
+}
+h1 {
+  text-align: center;
+  margin: 2em 0;
+  color: rgb(156, 156, 156);
+  font-size: 3em;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+li {
+  padding: .5em 2em;
+  margin-bottom: 1em;
+  background-color: white;
+  border-radius: 5px;
+  color: rgb(100, 100, 100);
+  font-size: 1.1em;
+}
+.li-dark-mode{
+  background-color: #191919;
+}
+.light-mode-button{
+  font-size: 1rem;
+  width: 3rem;
+  position: relative;
+  text-align: left;
+  padding: 0 1%;
+  height: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0px 0px 3px #000;
+}
+.dark-mode-button{
+  font-size: 1rem;
+  width: 3rem;
+  position: relative;
+  text-align: left;
+  padding: 0 1%;
+  height: 1.5rem;
+  box-shadow: 0px 0px 3px #000;;
+  border-radius: 1rem;
+  background-color: #33338b;
+}
+
+.light-mode,.dark-mode{
+  font-size: 1em;
+  position: absolute;
+  text-shadow: 0px 0px 3px #000;
+  transition: transform 0.5s;
+  top: 18%;
+  transition: transform 0.5s;
+}
+
+.light-mode{
+  color: yellow;
+  left: 10%;  
+}
+
+.dark-mode{
+  color: #e0e0e0;
+  transform: translateX(1.25em);
+}
+
+@media (min-width:900px){
+  .dark-mode{
+    transform: translateX(120%);
+  }
+}
+@media (min-width:1200px){
+  .dark-mode{
+    transform: translateX(90%);
+  }
+}
+@media (min-width:1600px) {
+  :root{
+    font-size: 1.5rem;
+  }
+  .light-mode,.dark-mode{
+    font-size: 1em;
+    top: 20%;
+  }
+}

@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+html *{
+    color:#BBBBBB;
+    font-family: 'Roboto', sans-serif;;
+    margin:0;
+    
+}
+body {
+    min-height: 100vh;
+    align-items: center;
+    background-image: linear-gradient(75deg,#2B2B5F ,#2c2f6d,#242657,#22214D,#282850,#483A5E,#826271);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+}
+label{
+    font-size: 1.3rem;
+}
+
+.formField{
+    background-color: inherit;
+    border:0;
+    border-bottom: 1px solid white;
+    display: inline;
+    margin: 1rem 0;
+    font-size: 1.3rem;
+    transition: all 0.4s ease-in-out;
+    width: 48.625%;
+}
+.formField:hover,.formField:focus{
+    transform: scale(1.03);
+
+}
+.formField:focus{
+    background-color: black;
+}
+#ibFieldset,#ibLegend{
+    animation: fieldFadeIn 5s ease-in -4s;
+}
+#ibLegend{
+    animation: fieldFadeIn 5s ease-in -3.8s;
+}
+#ibName{
+    animation: fieldFadeIn 5s ease-in -3.6s;
+}
+#ibLastName{
+    animation: fieldFadeIn 5s ease-in -3.4s;
+}
+#email{
+    width: 99.5%;
+    animation: fieldFadeIn 5s ease-in -3.2s;
+}
+#ibStateLabel{
+    animation: fieldFadeIn 5s ease-in -3s;
+}
+#stateDropBox{
+    color: black;
+    background-color: #E0E0E0;
+    animation: fieldFadeIn 5s ease-in -2.8s;
+}
+#lbDayOfBirth{
+    animation: fieldFadeIn 5s ease-in -2.6s;
+}
+#dayOfBirth{
+    width: fit-content;
+    animation: fieldFadeIn 5s ease-in -2.4s;
+}
+#iuFieldset{
+    animation: fieldFadeIn 5s ease-in -2.2s;
+}
+#iuLegend{
+    animation: fieldFadeIn 5s ease-in -2s;
+}
+#iuUsername{
+    animation: fieldFadeIn 5s ease-in -1.8s;
+}
+#iuPassword{
+    animation: fieldFadeIn 5s ease-in -1.6s;
+}
+#submitButton{
+    animation: fieldFadeIn 5s ease-in -1.4s;
+}
+#resetButton{
+    animation: fieldFadeIn 5s ease-in -1.2s;
+}
+#formBox{
+    min-width: 20rem;
+    min-height: 15rem;
+    border: 1px solid #000000;
+    border-radius: 5% 0%;
+    padding: 1.5em 2em 1em;
+    box-sizing: border-box;
+    background-color: #0A0C25;
+    box-shadow: 0px 10px 10px black;
+    animation: boxGrow 1.2s ease-in-out
+}
+#formHeader{
+    display: flex;
+    justify-content: center;
+}
+#buttonBox{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    width: 100%
+}
+
+#buttonBox .button{
+    background-image: linear-gradient(to right, #3C2F99,#F18384);
+    width: 100%;
+    height: 2em;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.buttonTranslateYWrapper{
+    width:50%;
+    margin: 0.8rem;
+    transition: transform 1s cubic-bezier(0,-4.65,1,-0.52);
+
+}
+#buttonTranslateXLeftWrapper{
+    display: flex;
+    transition: transform 2s linear;
+}
+#buttonTranslateXLeftWrapper:hover{
+    transition-delay: 1s;
+    transform: translateX(-500%);
+}
+#buttonTranslateXRightWrapper{
+    display: flex;
+    transition: transform 2s linear;
+}
+#buttonTranslateXRightWrapper:hover{
+    transition-delay: 1s;
+    transform: translateX(500%);
+}
+.buttonTranslateYWrapper:hover{
+    transition-delay: 0.75s;
+    transform: translatey(600%);
+}
+#buttonRotateLeftWrapper{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    transform-origin: 0% 100%;
+    transition: transform 2s cubic-bezier(.67,.11,.43,.37);
+}
+#buttonRotateLeftWrapper:hover{
+    transform-origin: 0% 100%;
+    transform: rotate(1620deg);
+}
+#buttonRotateRightWrapper{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    transform-origin: 100% 100%;
+    transition: transform 2s cubic-bezier(.67,.11,.43,.37);
+}
+#buttonRotateRightWrapper:hover{
+    transform-origin: 100% 100%;
+    transform: rotate(1620deg);
+}
+footer{
+    margin-top: 1em;
+    animation: fieldFadeIn 4s ease-in;
+}
+
+@keyframes boxGrow {
+    
+    0%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+@keyframes fieldFadeIn {
+
+    0%{
+        opacity: 0;
+    }
+
+    90%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes balloon {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.05);
+    }
+    100%{
+        transform: scale(1);
+    }
+}

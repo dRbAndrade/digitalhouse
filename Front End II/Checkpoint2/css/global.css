@@ -1,0 +1,387 @@
+* {
+    
+    box-sizing: border-box;
+    font-size: 1rem;
+    color:var(--text-hsl);
+}
+:root{
+    
+    --mode-hsl: hsl(0, 100%, 95%);
+    --text-hsl: hsl(0, 0%, 46%);
+    --border-hsl: hsl(0, 0%, 46%);
+    
+}
+body, form, section{
+    
+    display: flex;
+    align-items:flex-start;
+    justify-content:center;
+    flex-direction: column;
+    
+}
+
+body{
+
+    background-color: var(--mode-hsl);
+    padding: 10% 0.5rem;
+    height: 100vh;
+    max-height: 100vh;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    transition: opacity 0.5s linear;
+    margin:0;
+}
+body *{
+    background-color: var(--mode-hsl);
+}
+button{
+    cursor: pointer;
+}
+form{
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 3%;
+    width: 100%;
+
+}
+input{
+    border: 1px solid var(--border-hsl);
+    color: var(--text-hsl);
+    max-width: 200px;
+}
+form *{
+    grid-column: 1/3;
+}
+form textarea, form button{
+    grid-column: 1/4;
+}
+form button{
+    justify-self: right;
+}
+form input:nth-of-type(2){
+    grid-row: 3/4;
+}
+section{
+
+    width: 100%;
+
+}
+
+form :not(label) {
+
+    border-radius: 0.3rem;
+    margin: 1% 0;
+
+}
+textarea{
+
+    border: 1px solid var(--border-hsl);
+    resize: none;
+    width: 100%;
+
+}
+textarea::placeholder{
+    color: var(--text-hsl);
+}
+label{
+
+    position: relative;
+    color: red;
+    width: fit-content;
+}
+
+.mock-container{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+.loading{
+    content: url("../assets/loading.png");
+    height: 1.5rem;
+    width: 1.5rem;
+    position: relative;
+    animation: load 1s linear infinite;
+}
+.invalid{
+
+    border: 1px solid #f00;
+
+}
+
+.hidden{
+
+    display: none;
+
+}
+
+.card{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border-radius: 0.2rem;
+    box-shadow: 0 0 0.3rem 0.1rem var(--border-hsl);
+    padding: 2%;
+
+}
+
+.button-container{
+
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    min-width: 50px;
+
+}
+.delete-button,.delete-prompt{
+    padding: 5% 10%;
+    border-radius: 0.3rem;
+    border: 1px solid #000;
+    color: #fff;
+}
+.delete-button{
+
+    position: relative;
+    background-color: #f00;
+    margin-left: 10%;
+}
+
+.done{
+
+    text-decoration: line-through;
+    font-style: italic;
+
+}
+
+.description{
+
+    resize: none;
+    overflow: hidden;
+    word-wrap: break-word;    
+    width: 100%;
+    margin: 0 1% 0 2%;
+    border: none;
+    
+}
+
+.task-body{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+.check-button{
+
+    margin: 0;
+
+}
+
+.edit-button{
+
+    border: none;
+    background-color: transparent;
+    font-size: 0.8rem;
+    padding: 0;
+    color: #FF9800;
+    text-shadow: 1px 1px 1px #000;
+
+}
+
+form .button-container{
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    width: 100%;
+    grid-column: 1/4;
+}
+
+.button{
+
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    color: var(--text-hsl);
+    border: outset;
+    grid-row:4/5;
+    height: 2rem;
+    /* text-shadow: 0.1rem 0.1rem 0.05rem #555; */
+}
+.button.add{
+    border-radius: 50%;
+    width: 2rem;
+    font-size: 1.3rem;
+}
+.button.mock{
+    padding: 2%;
+    margin-right: 0.3rem;
+    min-width: 180px;
+}
+
+.task-footer{
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.3rem;
+    width: 100%;
+}
+
+.task-footer *{
+    font-size: 0.6rem;
+}
+
+.delete-prompt{
+
+    position: absolute;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    top: -133%;
+    left: -25%;
+    width: 145%;
+    height: 145%;
+    z-index: 10;
+    background-color: #0F0;
+    border: outset;
+}
+
+.light-mode-img, .dark-mode-img{
+    cursor: pointer;
+    grid-column: 3/4;
+    grid-row: 1/ span 4;
+    width: 4rem;
+    height: 4rem;
+    place-self: center;
+}
+.light-mode-img{
+    content:url("../assets/angel-emoji.png");
+}
+.dark-mode-img{
+    content: url("../assets/devil-emoji.png");
+}
+
+.fade{
+    opacity: 0;
+}
+
+:disabled{
+    background-color: var(--mode-hsl);
+}
+
+
+@media (min-width:375px) and (min-height:600px) {
+
+    :root{
+        font-size: 1.5rem;
+    }
+
+}
+@media (min-width:300px) {
+    
+    body{
+
+        padding-top: 1%;
+
+    }
+    form{
+        grid-template-columns: repeat(4,1fr);
+    }
+    .light-mode-img,.dark-mode-img{
+        grid-column: 3/span2;
+        place-self: center;
+    }
+    form input{
+        grid-column: 1/3;
+    }
+    form textarea,form .button-container{
+        grid-column: 1/6;
+    }
+
+}
+
+@media (min-width:650px) {
+
+    body{
+        align-items: center;
+    }
+    
+    form{
+        grid-template-rows: repeat(3,1fr);
+        grid-template-columns: repeat(3,1fr);
+        gap: 1rem;
+        width: 60%;
+        max-width: 500px;
+        /* border: 1px solid #000; */
+        border-radius: 0.3rem;
+        padding: 1%;
+        box-shadow: 0 0 0.3rem 0.1rem var(--border-hsl);
+    }
+
+    section{
+        padding: 0.5rem 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+    form textarea{
+        grid-column: 1/3;   
+        grid-row: 2/3;
+    }
+    form input{
+        grid-row: 1/2;
+        align-self: end;
+        width: 75%;
+    }
+    label{
+        font-size: 0.8rem;
+    }
+    label:first-of-type{
+        grid-row: 1/2;
+        grid-column: 2/4;
+        justify-self: end;
+    }
+    label:last-of-type{
+        top:-1.05rem;
+    }
+    form input:last-of-type{
+        grid-row: 1/2;
+        grid-column: 2/4;
+        justify-self: end;
+    }
+    form .button-container{
+        grid-column: 1/3;
+    }
+    label:last-of-type{
+        grid-row: 2/3;
+        grid-column: 1/2;
+    }
+    .dark-mode-img,.light-mode-img{
+        grid-column: 3/4;
+        grid-row:2/4;
+        width: 6rem;
+        height: 6rem;
+    }
+    .card{
+        height: 100%;
+    }   
+}
+@media (min-width:900px) {
+    section{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1rem;
+    }
+    .card{
+        height: 100%;
+    }   
+}
+
+@keyframes load {
+    from{transform: rotate(0);}
+    to{transform: rotate(360deg);}
+}

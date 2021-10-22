@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/styles.css">
+        <link rel="shortcut icon" href="./assets/form-icon.png" type="image/x-icon">
+        <title>Forminception</title>
+    </head>
+    <body>
+        <h1>SEJAM BEM-VINDOS AO FORMINCEPTION!</h1>
+        <h2>Um form para criar outros forms</h2>
+        <div class="container header">
+            <form>    
+                <fieldset class="container">
+                    <input id="title-input" type="text" placeholder="Título">
+                    <div class="color container">
+                        <label for="cor">Cor de fundo: </label>
+                        <input id="bg-color-input" class="color-input"type="color" name="corFundo">
+                    </div>
+                    <div class="color container">
+                        <label for="cor">Cor do texto: </label>
+                        <input id="fg-color-input" class="color-input"type="color" name="corTexto">
+                    </div>
+                    <select name="inputType" id="input-type">
+                        <option value="">Escolha um tipo</option>
+                        <option value="text">Text</option>
+                        <option value="password">Password</option>
+                        <option value="button">Button</option>
+                        <option value="date">Date</option>
+                        <option value="email">Email</option>
+                    </select>
+                    <button id="add-input" type="text">Adicionar Input</button>
+                    <button id="finish-form" type="text">Finalizar Form</button>
+                    <button id="form-skynet" type="text">CUIDADO COM OS FORMS</button>
+                    
+                </fieldset>
+            </form>
+            <form id="preview-form" class="card hidden">
+            </form>
+        </div>
+        <div id="card-container">
+
+        </div>
+        <script src="./js/main.js"></script>
+    </body>
+</html>

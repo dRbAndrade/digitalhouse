@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="../css/cursos.css">
+        <link rel="stylesheet" href="../css/main.css">
+        <link rel="stylesheet" href="../css/notificacoes.css">
+        <link rel="stylesheet" href="../assets/fonts/style.css">
+        <link rel="shortcut icon" href="../assets/logo_P_pink.png" type="image/x-icon">
+        <title>Indrodução à Informática</title>
+    </head>
+    <body>
+      <span id="inicio"></span>
+        <header class="sticky-top header">
+            <nav class="container-fluid navbar navbar-expand-lg navbar-light">
+              
+                <a class="navbar-brand" href="../main.html"><img id="headerLogo" class="img-fluid col-6" src="../assets/parquinho-verde-agua.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                  aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="icon-menu-white"></span>
+                </button>
+                <div class="collapse justify-content-end navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link d-flex align-items-center" href="#inicio">Início</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link d-flex align-items-center" href="../perfil.html">Perfil</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link d-flex align-items-center" href="../main.html#curso">Curso</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" data-bs-toggle="offcanvas" href="" data-bs-target="#offcanvasRight"
+                          aria-controls="offcanvasRight">Notificações</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link d-flex align-items-center" href="../index.html">Sair</a>
+                    </li>
+                  </ul>
+                </div>
+              <!-- Notificações -->
+            <!-- essa div é a barra de notificações que aparece -->
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+            aria-labelledby="offcanvasRightLabel" style="background-color: #111111;"
+            aria-modal="true" role="dialog">
+            <!-- aqui é o título Notificações -->
+            <div class="offcanvas-header">
+                <h3 id="offcanvasRightLabel">Notificações</h3>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                    aria-label="Close" style="background-color: #B497D6"></button>
+            </div>
+            <!-- corpo da barra de notificações -->
+            
+                <div class="offcanvas-body" id="offcanvasBody">
+
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Mensagens Não Lidas
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>Reagendamento de Atividade</strong> <small>03/07/2021</small> Atividade
+                                Avaliativa 1 <br>
+                                Nova data: de 07/08/2021 para 12/08/2021
+                            </div>
+                            <div class="accordion-body">
+                                <strong>Reagendamento do fórum</strong> <small>05/07/2021</small> PERGUNTAS FREQUENTES <br>
+                                Nova data: de 01/08/2021 a 15/08/2021
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Mensagens Lidas
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>Contato do coordenador</strong> <small>19/06/2021</small> Prezados(as) alunos(as),<br>
+                                Caso tenham alguma dificuldade no uso das ferramentas de nossa
+                                plataforma, entrem em contato com o suporte ao aluno do EAD pelo e-mail
+                                aluno@parquinho.com.br.<br>
+                                Atenciosamente, coordenador do curso.
+                            </div>
+                        </div>
+                    </div> 
+               </div>              
+        </div>
+        <!-- Fim da barra de notificações -->
+            </nav>
+          </header>
+
+        <main class="container-fluid pt-5 pr-5">
+        <div class="row row-col-1 justify-content-center">
+          <div class="row">
+            <div class="col-12">
+              <a href="../main.html">Início</a> > Indrodução à Informática 
+            </div>
+          </div>
+          <div class="row">
+              <div class="row justify-content-between">
+                  <div class="col-12 col-lg-6 mt-5">
+                      <h1>Indrodução à informática</h1>
+                      Introdução à Informática A vida em sociedade originou a necessidade de transmitir informação e devido aos contínuos avanços tecnológicos foram desenvolvidas ferramentas cada vez mais completas para cobrir esta necessidade. Qualquer um dos dispositivos que utilizamos diariamente permite-nos trocar informações de forma muito rápida e precisa. O tema Introdução à Informática visa fornecer os conhecimentos básicos para os conteúdos que os estudantes abordam na corrida e na sua formação profissional.
+                  </div>
+
+                  <div class="d-none d-lg-flex col-md-6 mt-5 align-items-center justify-content-center">
+                      <img id="courseIMG" src="../assets/introducao-informatica.png" alt="" class="img-fluid">
+                  </div>
+              </div>
+            </div>     
+          </div>
+        </main>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"/>
+    </body>
+</html>

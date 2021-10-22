@@ -1,0 +1,120 @@
+main{
+    background-color: var(--body-color);
+}
+footer,footer div,li a{
+    background: var(--base-color);
+    color: var(--link-color);
+}
+p{
+    color:var(--text-color);
+}
+h1,h2,h3,h4,h5,h6{
+    color:var(--alt-color);
+}
+h5{
+    font-size: 12px;
+}
+h6{
+    font-size: 10px;
+}
+
+#botarFogo img{
+    width: 0;
+    height: 0;
+    opacity: 0;
+    transition: width 0.5s ease-in-out;
+    transition: height 0.5s ease-in-out;
+    
+}
+#botarFogo:hover img{
+    width: 1em;
+    height: 1em;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out 0.5s;
+}
+.navbar-brand img{
+    width: 200px;
+}
+
+.nav-item a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--link-color);
+}
+
+:root{
+    --hue: 160;
+    --hue-alt: 268;
+    --base-color: hsl(var(--hue) 0% 7%);
+    --alt-color: hsl(var(--hue-alt) 47% 73%);
+    --body-color: hsl(var(--hue) 0% 13%);
+    --title-color: hsl(var(--hue) 94% 58%);
+    --text-color: hsl(var(--hue) 0% 100%);
+    --link-color: hsl(var(--hue) 0% 100%); 
+}
+
+.header{
+    background: var(--base-color);
+    min-height: 4.375rem;
+}
+
+.banner1{
+    background-image: url("../assets/reunion.jpeg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+
+.btn{
+    background-color: var(--base-color);
+    border: 1px solid var(--base-color);
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    text-decoration: none;
+}
+
+#botarFogo{
+    transition: all 0.5s ease-in-out;
+}
+
+#botarFogo:hover{
+    transform: scale(1.50);
+    filter: drop-shadow(0 0 5px #000);
+}
+
+    
+.card{
+    background: var(--base-color);
+    padding: 0;
+    margin:1.5rem;
+    transition: all 0.5s ease-in-out;
+}
+.card:hover{
+    transform: scale(1.02);
+    box-shadow: 0 0 5px 1px hsl(160 94% 58%);
+}
+.card .card-img-top{
+    border-radius: 20px;
+    height: 220px;
+    padding: 1rem;
+}
+.card .card-body .card-title{
+    color: var(--title-color);
+}
+.card .card-body .card-link{
+    color: var(--title-color);
+}
+
+.navbar-light .navbar-nav .nav-link,
+ .navbar-toggler-icon{
+    color:var(--link-color);
+}
+.navbar-light .navbar-nav .nav-link:hover,
+ .navbar-toggler-icon:hover{
+     color: var(--alt-color);
+ }
+.navbar-light .navbar-nav .nav-link:focus,
+ .navbar-toggler-icon:focus{
+     color: var(--alt-color);
+ }

@@ -1,0 +1,42 @@
+html *{
+    margin:10px;
+}
+#cabecalho {
+    height: 150px;
+    background-color: #D5CFA7;
+}
+
+#conteudo {
+    height: 800px;
+    background-color: #797066;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lua {
+    background-color: #434234;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    padding: 20px;
+    border: #000 3px solid;
+}
+
+#rodape {
+    height: 200px;
+    background-color: #3E362F;
+}
+
+.icones {
+    height: 100px;
+}   
+.textPadding1{
+    border: #000 3px solid;
+    padding: 10px;
+}
+.textPadding2{
+    border: #000 3px solid;
+    padding: 10px;
+    /* margin-left: 10px; */
+}

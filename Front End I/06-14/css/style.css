@@ -1,0 +1,33 @@
+/* Reset Css */
+html *{
+  margin: 0;
+}
+h1 {
+  color: #ff0000;
+}
+body{
+  text-align: center;
+  background-image: url(https://bit.ly/35gjd8A);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  background-size: 100vh,100vw;
+  background-attachment: fixed;
+  background-color: #05172F;
+}
+
+#cabecalho{
+  height: 20vh;
+}
+
+#conteudo{
+  height: 60vh;
+}
+
+#rodape{
+  height: 20vh;
+}
+.icones{
+  height: 20px;
+  width: 20px;
+}
