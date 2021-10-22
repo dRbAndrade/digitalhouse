@@ -60,6 +60,8 @@ public class Employee extends Salesperson{
     public String toString() {
         final String[] affiliateString = {""};
         affiliateList.forEach(e-> affiliateString[0]+=String.format("%4s%s%n","",e.getName()));
+        if (affiliateString[0].equals(""))affiliateString[0]=String.format("%4sNenhum afiliado","");
+
         return String.format("""
                 Vendedor: %s
                 Tipo: Funcionário
