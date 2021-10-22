@@ -11,7 +11,7 @@ public class ATMService implements ATMFacade{
         Account acc = AccountService.getAccount(id);
         String msg;
         String title;
-        Integer type;
+        int type;
         if(acc.withdraw(value)){
             msg = String.format("""
                     Saque realizado com sucesso.
@@ -47,7 +47,7 @@ public class ATMService implements ATMFacade{
                     Digite -1 para sair a qualquer momento.
                     A seguir, digite um por um, seu ID, Senha e Valor a retirar.
                                     p.s: Não tem validação de tipo, pega leve
-                    %s: """;
+                    %s:""";
             String id = JOptionPane.showInputDialog(null, String.format(msg, "ID"));
             if(id.equals("-1"))exit();
             String password = JOptionPane.showInputDialog(null, String.format(msg, "Senha"));

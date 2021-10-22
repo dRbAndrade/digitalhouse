@@ -70,9 +70,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -100,7 +100,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/aula1018/sincrona" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
@@ -111,7 +111,20 @@
       <recent name="E:\Matheus\Estudos\DigitalHouse\Backend\src\main\java\aula1018\sincrona" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (4)">
+  <component name="RunManager" selected="Application.ATMService">
+    <configuration name="ATMService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.aula1018.assincrona.facade.ATMService" />
+      <module name="Backend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.aula1018.assincrona.facade.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.aula1018.sincrona.templatemethod.Main" />
       <module name="Backend" />
@@ -164,26 +177,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.aula1018.assincrona.templatemethod.Main" />
-      <module name="Backend" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.java.aula1018.assincrona.templatemethod.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ATMService" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
