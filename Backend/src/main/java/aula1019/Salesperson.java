@@ -9,29 +9,75 @@ public abstract class Salesperson {
     private Rank rank;
     private int sales;
 
-    public void showRank(Salesperson salesperson){
-        calculateScore(salesperson);
-        updateRank(salesperson);
-        show(salesperson);
+    public Salesperson(String name) {
+        this.name = name;
     }
 
-    protected abstract void calculateScore(Salesperson salesperson);
+    public void showRank(){
+        calculateScore();
+        updateRank();
+        show();
+    }
 
-    private void updateRank(Salesperson salesperson) {
-        if(!(salesperson instanceof Intern)){
-            salesperson.rank = salesperson.score<20 ? Rank.NOVICE:null;
-            salesperson.rank = salesperson.score>20 ? Rank.APPRENTICE:null;
-            salesperson.rank = salesperson.score>30 ? Rank.EXPERIENCED:null;
-            salesperson.rank = salesperson.score>40 ? Rank.MASTER:null;
+    protected abstract void calculateScore();
+
+    private void updateRank()  {
+        if(!(this instanceof Intern)){
+             if(score<20) rank = Rank.NOVICE;
+             if(score>20) rank = Rank.APPRENTICE;
+             if(score>30) rank = Rank.EXPERIENCED;
+             if(score>40) rank = Rank.MASTER;
         }else{
-            salesperson.rank = salesperson.score<50 ? Rank.NOVICE:null;
-            salesperson.rank = salesperson.score>49 ? Rank.EXPERIENCED:null;
+             if(score<50) rank = Rank.NOVICE;
+             if(score>49) rank = Rank.EXPERIENCED;
         }
     }
-    private void show(Salesperson salesperson) {
-        JOptionPane.showMessageDialog(null, """
-                """);
+
+    public void sell(){
+        sales++;
     }
 
+    private void show() {
+        JOptionPane.showMessageDialog(null, String.format("""
+                %s
+                Vendas: %d
+                Pontuação: %d
+                Rank: %s""",
+                this,
+                getSales(),
+                getScore(),
+                getRank()));
+    }
 
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getScore() {
+        return score;
+    }
+
+    public void setScore(int score) {
+        this.score = score;
+    }
+
+    public Rank getRank() {
+        return rank;
+    }
+
+    public void setRank(Rank rank) {
+        this.rank = rank;
+    }
+
+    public int getSales() {
+        return sales;
+    }
+
+    public void setSales(int sales) {
+        this.sales = sales;
+    }
 }

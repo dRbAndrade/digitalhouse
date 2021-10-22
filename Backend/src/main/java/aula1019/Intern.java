@@ -1,8 +1,26 @@
 package main.java.aula1019;
 
-public class Intern extends Salesperson{
-    @Override
-    protected void calculateScore(Salesperson salesperson) {
+import main.java.util.Generator;
 
+public class Intern extends Salesperson{
+    public Intern(String name) {
+        super(name);
+    }
+
+    @Override
+    protected void calculateScore() {
+        setScore(getSales()*5);
+    }
+
+    public static Intern generateRandomIntern(){
+        return new Intern(Generator.generateRandomGibberish(6));
+    }
+
+    @Override
+    public String toString() {
+        return String.format("""
+                Vendedor: %s
+                Tipo: Estagiário""",
+                getName());
     }
 }
