@@ -1,4 +1,4 @@
-package main.java.aula1022;
+package main.java.aula1022.mesadetrabalho;
 
 public class SeriesUnavailableException extends Exception {
 
