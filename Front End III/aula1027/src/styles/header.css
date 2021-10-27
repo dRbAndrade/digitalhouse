@@ -1,0 +1,20 @@
+
+.header{
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    height: 10vh;
+    padding: 1% 2%;
+    background-color: #111;
+}
+
+.header img{
+    height:100%;
+    width: auto;
+}
+
+.header div{
+    display: flex;
+    width: fit-content;
+    gap: 0.5rem;
+}
