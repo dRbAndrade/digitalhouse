@@ -6,11 +6,11 @@ function Header(){
         <div className="header">
             <img src={image} alt="dRb Logo" />
             <div>
-                <a href="#">Isso</a>
-                <a href="#">É</a>
-                <a href="#">Encheção</a>
-                <a href="#">De</a>
-                <a href="#">Linguiça</a>
+                <button>Isso</button>
+                <button>É</button>
+                <button>Encheção</button>
+                <button>De</button>
+                <button>Linguiça</button>
             </div>
         </div>
     );

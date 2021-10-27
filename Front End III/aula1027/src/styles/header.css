@@ -18,3 +18,10 @@
     width: fit-content;
     gap: 0.5rem;
 }
+
+.header button{
+    border:none;
+    background-color: transparent;
+    text-decoration: underline;
+    color:#00F
+}
