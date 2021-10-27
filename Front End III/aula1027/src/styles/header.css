@@ -23,5 +23,6 @@
     border:none;
     background-color: transparent;
     text-decoration: underline;
-    color:#00F
+    color:#00F;
+    cursor: pointer;
 }

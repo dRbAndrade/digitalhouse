@@ -15,5 +15,6 @@
 }
 .banner button{
     color: black;
+    cursor: pointer;
     height: 2rem;
 }
