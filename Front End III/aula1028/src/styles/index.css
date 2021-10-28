@@ -18,7 +18,7 @@ p{
   width: 100%;
   text-align: center;
 }
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+  background-color: #111;
+  color: #fff;
 }
