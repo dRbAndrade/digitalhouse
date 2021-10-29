@@ -1,11 +1,9 @@
-package aula1028;
+package util;
 
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.SQLException;
+import java.sql.*;
 
 public class DAO {
 
@@ -25,6 +23,7 @@ public class DAO {
         }
         return connection;
     }
+
 
 
 }
