@@ -1,4 +1,4 @@
-package main.java.aula1025.testing;
+package aula1025.testing;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Assertions;

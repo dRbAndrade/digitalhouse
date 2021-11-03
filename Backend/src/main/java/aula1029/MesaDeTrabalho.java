@@ -2,7 +2,7 @@ package aula1029;
 
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
-import util.DAO;
+import util.ConnectionFactory;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -15,7 +15,7 @@ public class MesaDeTrabalho {
 
     public static void main(String[] args) throws ClassNotFoundException {
         PropertyConfigurator.configure("Backend\\log4j.properties");
-        Connection connection = DAO.getConnection();
+        Connection connection = ConnectionFactory.getConnection();
         String query = """
                 DROP TABLE IF EXISTS employee""";
         PreparedStatement statement;
