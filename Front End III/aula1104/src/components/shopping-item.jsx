@@ -32,7 +32,6 @@ export default class ShoppingItem extends Component {
     deleteElement=(id)=>{
 
         const newState=this.state.currentState.filter(e=>e.id!==id);
-        console.log(newState);
         this.setState({
             currentState:newState
         });
