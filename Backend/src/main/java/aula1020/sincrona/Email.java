@@ -1,6 +1,6 @@
-package main.java.aula1020.sincrona;
+package aula1020.sincrona;
 
-import main.java.util.Generator;
+import util.Generator;
 
 public class Email {
 

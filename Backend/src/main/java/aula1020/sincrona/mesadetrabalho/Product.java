@@ -1,6 +1,6 @@
-package main.java.aula1020.sincrona.mesadetrabalho;
+package aula1020.sincrona.mesadetrabalho;
 
-import main.java.util.Generator;
+import util.Generator;
 
 public class Product {
     private String name;

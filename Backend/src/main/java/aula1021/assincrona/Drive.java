@@ -1,4 +1,4 @@
-package main.java.aula1021.assincrona;
+package aula1021.assincrona;
 
 public interface Drive {
 

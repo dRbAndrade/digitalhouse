@@ -1,6 +1,6 @@
-package main.java.aula1018.sincrona.facade.mesadetrabalho;
+package aula1018.sincrona.facade.mesadetrabalho;
 
-import main.java.util.Generator;
+import util.Generator;
 
 import java.time.LocalDate;
 import java.util.ArrayList;

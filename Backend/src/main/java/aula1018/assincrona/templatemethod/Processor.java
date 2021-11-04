@@ -1,4 +1,4 @@
-package main.java.aula1018.assincrona.templatemethod;
+package aula1018.assincrona.templatemethod;
 
 import javax.swing.*;
 import java.time.LocalDate;

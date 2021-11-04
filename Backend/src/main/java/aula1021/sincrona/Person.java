@@ -1,4 +1,4 @@
-package main.java.aula1021.sincrona;
+package aula1021.sincrona;
 
 import java.time.LocalDate;
 

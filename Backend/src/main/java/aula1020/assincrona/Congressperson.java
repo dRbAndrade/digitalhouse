@@ -1,6 +1,6 @@
-package main.java.aula1020.assincrona;
+package aula1020.assincrona;
 
-import main.java.util.Generator;
+import util.Generator;
 
 import javax.swing.*;
 

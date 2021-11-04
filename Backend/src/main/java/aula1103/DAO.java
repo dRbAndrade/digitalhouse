@@ -1,13 +1,15 @@
 package aula1103;
 
+import java.util.List;
+
 public interface DAO<T> {
 
     public void insert(T t);
 
     public void delete(int id);
 
-    public void selectAll();
+    public List<T> selectAll();
 
-    public void selectById(int id);
+    public T selectById(int id);
 
 }

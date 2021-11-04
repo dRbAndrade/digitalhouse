@@ -1,4 +1,4 @@
-package main.java.aula1019;
+package aula1019;
 
 public enum Rank {
     NOVICE("Novato"),

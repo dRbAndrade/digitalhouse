@@ -1,4 +1,4 @@
-package main.java.aula1018.sincrona.facade;
+package aula1018.sincrona.facade;
 
 public class ProductAPI {
 

@@ -1,6 +1,6 @@
-package main.java.aula1019;
+package aula1019;
 
-import main.java.util.Generator;
+import util.Generator;
 
 public class Intern extends Salesperson{
     public Intern(String name) {

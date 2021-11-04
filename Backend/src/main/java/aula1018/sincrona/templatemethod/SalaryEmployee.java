@@ -1,6 +1,6 @@
-package main.java.aula1018.sincrona.templatemethod;
+package aula1018.sincrona.templatemethod;
 
-import main.java.util.Generator;
+import util.Generator;
 
 public class SalaryEmployee extends Employee{
 

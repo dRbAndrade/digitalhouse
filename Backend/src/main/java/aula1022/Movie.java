@@ -1,6 +1,6 @@
-package main.java.aula1022;
+package aula1022;
 
-import main.java.util.Generator;
+import util.Generator;
 
 public class Movie {
 

@@ -19,7 +19,6 @@ public class Main {
         medicine1.setPrice(100.00);
         medicine1.setQuantity(10);
 
-
         Medicine medicine2 = new Medicine();
         medicine2.setId(2);
         medicine2.setCode(145235423);
@@ -27,7 +26,6 @@ public class Main {
         medicine2.setName("Paroxetina");
         medicine2.setPrice(100.00);
         medicine2.setQuantity(10);
-
 
         DAO dao = new MedicineDAO();
         dao.insert(medicine1);

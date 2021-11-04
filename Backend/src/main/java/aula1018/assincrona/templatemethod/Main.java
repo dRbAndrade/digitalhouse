@@ -1,6 +1,6 @@
-package main.java.aula1018.assincrona.templatemethod;
+package aula1018.assincrona.templatemethod;
 
-import main.java.util.Generator;
+import util.Generator;
 
 public class Main {
 

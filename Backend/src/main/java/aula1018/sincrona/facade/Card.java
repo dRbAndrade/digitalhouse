@@ -1,6 +1,6 @@
-package main.java.aula1018.sincrona.facade;
+package aula1018.sincrona.facade;
 
-import main.java.util.Generator;
+import util.Generator;
 
 public class Card {
 

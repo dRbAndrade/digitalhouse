@@ -1,6 +1,6 @@
-package main.java.aula1018.sincrona.templatemethod.mesadetrabalho;
+package aula1018.sincrona.templatemethod.mesadetrabalho;
 
-import main.java.util.Generator;
+import util.Generator;
 
 public class ChildMenu extends Menu{
 

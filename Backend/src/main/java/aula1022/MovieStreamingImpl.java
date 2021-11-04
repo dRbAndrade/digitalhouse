@@ -1,4 +1,4 @@
-package main.java.aula1022;
+package aula1022;
 
 import javax.swing.*;
 import java.util.ArrayList;

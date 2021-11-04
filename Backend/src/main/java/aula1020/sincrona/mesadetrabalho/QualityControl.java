@@ -1,4 +1,4 @@
-package main.java.aula1020.sincrona.mesadetrabalho;
+package aula1020.sincrona.mesadetrabalho;
 
 public abstract class QualityControl {
 

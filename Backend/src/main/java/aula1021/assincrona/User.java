@@ -1,6 +1,6 @@
-package main.java.aula1021.assincrona;
+package aula1021.assincrona;
 
-import main.java.util.Generator;
+import util.Generator;
 
 public class User {
 

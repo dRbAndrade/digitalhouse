@@ -1,4 +1,4 @@
-package main.java.aula1020.assincrona;
+package aula1020.assincrona;
 
 public abstract class DocumentHandler {
 

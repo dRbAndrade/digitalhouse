@@ -1,6 +1,6 @@
-package main.java.aula1021.sincrona.mesadetrabalho;
+package aula1021.sincrona.mesadetrabalho;
 
-import main.java.util.Generator;
+import util.Generator;
 
 public class Main {
 

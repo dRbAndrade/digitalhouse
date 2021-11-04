@@ -1,4 +1,4 @@
-package main.java.aula1020.sincrona;
+package aula1020.sincrona;
 
 public abstract class Department extends EmailHandler{
 

@@ -1,4 +1,4 @@
-package main.java.aula1021.assincrona;
+package aula1021.assincrona;
 import javax.swing.*;
 import java.util.ArrayList;
 import java.util.List;

@@ -1,11 +1,9 @@
-package main.java.aula1021.sincrona;
+package aula1021.sincrona;
 
-import main.java.util.Generator;
+import util.Generator;
 
 import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.time.LocalDate;
-import java.util.Date;
+
 
 public class Main {
 

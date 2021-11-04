@@ -1,4 +1,4 @@
-package main.java.aula1018.sincrona.templatemethod;
+package aula1018.sincrona.templatemethod;
 
 import java.util.Set;
 import java.util.TreeSet;

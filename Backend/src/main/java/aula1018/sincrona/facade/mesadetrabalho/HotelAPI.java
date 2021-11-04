@@ -1,4 +1,4 @@
-package main.java.aula1018.sincrona.facade.mesadetrabalho;
+package aula1018.sincrona.facade.mesadetrabalho;
 
 import java.time.LocalDate;
 import java.util.Arrays;

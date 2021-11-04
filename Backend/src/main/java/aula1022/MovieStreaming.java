@@ -1,4 +1,4 @@
-package main.java.aula1022;
+package aula1022;
 
 public interface MovieStreaming {
 
