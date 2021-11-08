@@ -100,7 +100,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -113,27 +113,17 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Matheus\Estudos\DigitalHouse\Backend\src\main\java\aula1018\sincrona" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="checkpoint1" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.DentistDAOTest.testInsertAndSelect">
     <configuration name="ATMService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.aula1018.assincrona.facade.ATMService" />
       <module name="Backend" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="main.java.aula1018.assincrona.facade.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.aula1021.sincrona.Main" />
-      <module name="Backend" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.java.aula1021.sincrona.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -180,13 +170,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DentistDAOTest.testInsertAndSelect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Backend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="checkpoint1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="checkpoint1" />
+      <option name="MAIN_CLASS_NAME" value="checkpoint1.DentistDAOTest" />
+      <option name="METHOD_NAME" value="testInsertAndSelect" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DentistDAOTest.testInsertAndSelect" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.ATMService" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (2)" />
       </list>
     </recent_temporary>
   </component>

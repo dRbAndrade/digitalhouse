@@ -118,7 +118,7 @@ public class PatientDAO implements DAO<Patient>{
     public void update(Patient patient) {
         try{
             String query = """
-                    UPDATE address SET
+                    UPDATE patient SET
                     name = ?,
                     last_name = ?,
                     register_date = ?,

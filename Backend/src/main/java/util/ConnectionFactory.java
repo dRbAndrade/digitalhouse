@@ -11,7 +11,7 @@ public class ConnectionFactory {
     private static Connection connection;
 
     public static Connection getConnection() {
-        PropertyConfigurator.configure("Backend\\log4j.properties");
+        PropertyConfigurator.configure("log4j.properties");
         String user = "dRb";
         String password = "Re@perAndrade22";
         try {
