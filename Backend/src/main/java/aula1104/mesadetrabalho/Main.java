@@ -1,6 +1,5 @@
 package aula1104.mesadetrabalho;
 
-import aula1104.Pages;
 import util.Generator;
 
 import java.io.*;
@@ -16,6 +15,7 @@ public class Main {
         ObjectInputStream ois = new ObjectInputStream(fis);
 
         ArrayList<Contact> contacts = new ArrayList<>();
+
         for(int i =0;i<9;i++){
             contacts.add(
                     new Contact(
@@ -25,6 +25,7 @@ public class Main {
                     )
             );
         }
+
         oos.writeObject(contacts);
 
         ArrayList<Contact> contacts2 = (ArrayList<Contact>) ois.readObject();

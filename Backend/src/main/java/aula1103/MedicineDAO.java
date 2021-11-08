@@ -23,7 +23,7 @@ public class MedicineDAO implements DAO<Medicine>{
             connection.close();
             statement.close();
 
-        } catch (ClassNotFoundException | SQLException ex) {
+        } catch (SQLException ex) {
             ex.printStackTrace();
         }
 
@@ -41,7 +41,7 @@ public class MedicineDAO implements DAO<Medicine>{
             connection.close();
             statement.close();
 
-        } catch (ClassNotFoundException | SQLException ex) {
+        } catch (SQLException ex) {
             ex.printStackTrace();
         }
     }
@@ -71,7 +71,7 @@ public class MedicineDAO implements DAO<Medicine>{
             connection.close();
             statement.close();
 
-        } catch (ClassNotFoundException | SQLException ex) {
+        } catch (SQLException ex) {
             ex.printStackTrace();
         }
         return resultList;
@@ -101,7 +101,7 @@ public class MedicineDAO implements DAO<Medicine>{
             connection.close();
             statement.close();
 
-        } catch (ClassNotFoundException | SQLException ex) {
+        } catch (SQLException ex) {
             ex.printStackTrace();
         }
 

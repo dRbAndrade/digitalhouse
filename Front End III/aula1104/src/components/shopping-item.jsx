@@ -1,5 +1,5 @@
 import { Component} from "react";
-import "../styles/shopping-item.scss"
+import "../styles/shopping-item.scss";
 export default class ShoppingItem extends Component {
     
     originalState = [

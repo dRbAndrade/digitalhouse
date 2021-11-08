@@ -10,14 +10,14 @@ public class ConnectionFactory {
     private static final Logger logger = Logger.getLogger(main.java.aula1027.Log4J.class);
     private static Connection connection;
 
-    public static Connection getConnection() throws ClassNotFoundException {
+    public static Connection getConnection() {
         PropertyConfigurator.configure("Backend\\log4j.properties");
         String user = "dRb";
         String password = "Re@perAndrade22";
-        Class.forName("com.mysql.cj.jdbc.Driver");
         try {
+            Class.forName("com.mysql.cj.jdbc.Driver");
             connection = DriverManager.getConnection("jdbc:mysql://localhost/test1",user,password);
-        } catch (SQLException ex) {
+        } catch (SQLException | ClassNotFoundException ex) {
             ex.printStackTrace();
             logger.error(String.format("Não foi possível conectar: %n%s",ex.getMessage()));
         }
