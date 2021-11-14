@@ -4,3 +4,9 @@
   min-height: 80vh;
   background-image:var.$main-gradient;
 }
+
+@media (min-width:450px) {
+  .main{
+    padding: 2rem 1rem;
+  }
+}
