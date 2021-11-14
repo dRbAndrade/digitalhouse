@@ -1,0 +1,6 @@
+@use "var";
+
+.main{
+  min-height: 80vh;
+  background-image:var.$main-gradient;
+}

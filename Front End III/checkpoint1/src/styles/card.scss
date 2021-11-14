@@ -1,0 +1,28 @@
+@use 'var';
+.card{
+  
+  box-shadow: 0 0 1rem 0.2rem var.$shadow-color;
+  max-width: 300px;
+  place-self: center;
+  padding: 0.5rem;
+  height: 100%;
+  transition: transform 0.2s linear;
+  text-decoration: none;
+  color:var.$text-color;
+  box-sizing: border-box;
+  cursor:pointer;
+
+  * {
+    margin-bottom: 0.5rem;
+  }
+
+  img{
+    min-width: 160px;
+    max-width: 100%;
+    height: 165px;
+  }
+
+  &:hover{
+    transform: scale(1.05);
+  }
+}
