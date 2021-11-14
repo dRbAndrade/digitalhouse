@@ -1,4 +1,4 @@
-package aula1111.model;
+package aula1111;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;

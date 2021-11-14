@@ -1,4 +1,4 @@
-package integrador;
+package aula1105;
 
 import lombok.Getter;
 import lombok.Setter;

@@ -1,4 +1,4 @@
-package aula1111.model;
+package aula1111;
 
 import org.springframework.stereotype.Service;
 
@@ -16,7 +16,7 @@ public class LotteryService {
         Random random = new Random();
         for(int i =0; i<quantity;i++) {
             TreeSet<Integer> game = new TreeSet<>();
-            for (int j = 0; j < 6; j++) {
+            while(game.size()!=6) {
                 game.add(random.nextInt(1, 61));
             }
             games.add(game);

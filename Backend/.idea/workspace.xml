@@ -106,7 +106,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Colors" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -118,11 +118,14 @@
       <recent name="E:\Estudos\DigitalHouse\Backend\src\main\resources" />
       <recent name="E:\Matheus\Estudos\DigitalHouse\Backend\src\main\java\aula1018\sincrona" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="aula1111" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="checkpoint1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LotteryApplication">
+  <component name="RunManager" selected="Application.PokemonApplication">
     <configuration name="DemoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="aula1108.DemoApplication" />
       <module name="Backend" />
@@ -137,11 +140,11 @@
       </method>
     </configuration>
     <configuration name="LotteryApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="aula1111.model.LotteryApplication" />
+      <option name="MAIN_CLASS_NAME" value="aula1111.LotteryApplication" />
       <module name="Backend" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="aula1111.model.*" />
+          <option name="PATTERN" value="aula1111.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,12 +152,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="aula1103.Main" />
+    <configuration name="PokemonApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aula1112.PokemonApplication" />
       <module name="Backend" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="aula1103.*" />
+          <option name="PATTERN" value="aula1112.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -193,11 +196,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PokemonApplication" />
         <item itemvalue="Application.LotteryApplication" />
         <item itemvalue="Application.SpringApplication" />
         <item itemvalue="Application.DemoApplication" />
         <item itemvalue="JUnit.DentistDAOTest.testInsertAndSelect" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>

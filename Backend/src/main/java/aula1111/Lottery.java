@@ -1,4 +1,4 @@
-package aula1111.model;
+package aula1111;
 
 
 import java.util.List;
