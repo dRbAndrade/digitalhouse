@@ -10,7 +10,7 @@ export default class Header extends Component{
 
     render(){
         return(
-            <header id="home" className="header">
+            <header id="header" className="header">
                 <nav className="navbar">
                   <a href="#home">Home</a>
                   <a href="#projects">Projects</a>

@@ -6,6 +6,8 @@
     justify-content:center;
     background-image: var.$secondary-gradient;
     padding: 0.1rem 0.5rem;
+    position: sticky;
+    top: 0;
 
     nav{
       display: flex;
@@ -24,6 +26,7 @@
         &:hover{
           background-color: #111;
         }
+        
       }
 
     }

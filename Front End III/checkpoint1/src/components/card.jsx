@@ -6,7 +6,7 @@ export default class Card extends Component{
     const title = this.props.name[0].toUpperCase()+this.props.name.substring(1);
     return(
       <a className="card" href={this.props.link} target="_blank" rel='noreferrer'>
-        <img src={`./assets/${this.props.name}.png`} alt="Site"/>
+        <img src={`./assets/${this.props.name.replace(" ","-")}.png`} alt="Site"/>
         <h2>{title}</h2>
         <p>{this.props.description}</p>
       </a>

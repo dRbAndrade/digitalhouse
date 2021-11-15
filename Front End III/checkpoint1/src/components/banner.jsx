@@ -5,7 +5,7 @@ export default class Banner extends Component{
   render(){
 
     return(
-      <div id="presentation" className="banner">
+      <div id="home" className="banner">
         <div id="logo" className="logo"><span>d</span>R<span>b</span></div>
         <div className="banner-text">
           <h1>Portifólio de estudos</h1>
