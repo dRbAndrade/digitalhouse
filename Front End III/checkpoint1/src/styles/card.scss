@@ -11,6 +11,26 @@
   text-decoration: none;
   color:var.$text-color;
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 0.5rem;
+
+  a{
+    place-self: center;
+    text-decoration: none;
+    color: inherit;
+    border-radius: 10rem;
+    background-color: #111;
+    padding: 0.4rem;
+    transition: transform 0.2s linear;
+    i{
+      margin-right: 0.5rem;
+    }
+    &:hover{
+      transform: scale(1.05);
+    }
+  }
   cursor:pointer;
 
   * {
@@ -25,5 +45,8 @@
 
   &:hover{
     transform: scale(1.05);
+  }
+  img{
+    border-radius: 0.5rem;
   }
 }

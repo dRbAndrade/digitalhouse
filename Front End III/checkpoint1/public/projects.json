@@ -3,31 +3,36 @@
     "id":1,
     "name":"Parquinho",
     "description":"Projeto avaliativo do curso Certified Tech Developer cujos requisitos eram criar um site com bootstrap em 3 dias.",
-    "link":"https://drbandrade.github.io/digitalhouse/Front%20End%20I/Checkpoint3/"
+    "link":"https://drbandrade.github.io/digitalhouse/Front%20End%20I/Checkpoint3/",
+    "code":"https://github.com/dRbAndrade/digitalhouse/tree/main/Front%20End%20I/Checkpoint3"
   },
   {
     "id":2,
     "name":"Lolita",
     "description":"Site feito como parte do evento Next Level Week da Rocketseat.",
-    "link":"https://drbandrade.github.io/lolita/"
+    "link":"https://drbandrade.github.io/lolita/",
+    "code":"https://github.com/dRbAndrade/lolita"
   },
   {
     "id":3,
     "name":"To-Do-List",
     "description":"Projeto avaliativo do curso Certified Tech Developer cujos requisitos eram criar uma to-do list que também carregava uma lista de afazeres de uma API externa.",
-    "link":"https://drbandrade.github.io/digitalhouse/Front%20End%20II/Checkpoint2/"
+    "link":"https://drbandrade.github.io/digitalhouse/Front%20End%20II/Checkpoint2/",
+    "code":"https://github.com/dRbAndrade/digitalhouse/tree/main/Front%20End%20II/Checkpoint2"
   },
   {
     "id":4,
     "name":"Form",
     "description":"Primeiro form feito com transitions. Como os botões não tem funcionalidade, eles fogem.",
-    "link":"https://drbandrade.github.io/digitalhouse/Front%20End%20I/Checkpoint2/index.html"
+    "link":"https://drbandrade.github.io/digitalhouse/Front%20End%20I/Checkpoint2/index.html",
+    "code":"https://github.com/dRbAndrade/digitalhouse/tree/main/Front%20End%20I/Checkpoint2"
   },
   {
     "id":5,
     "name":"Primeiro Site",
     "description":"O primeiro site a gente nunca esquece. Mas feio desse tanto, como que esqueceria?",
-    "link":"https://drbandrade.github.io/digitalhouse/Front%20End%20I/Checkpoint1/index.html"
+    "link":"https://drbandrade.github.io/digitalhouse/Front%20End%20I/Checkpoint1/index.html",
+    "code":"https://github.com/dRbAndrade/digitalhouse/tree/main/Front%20End%20I/Checkpoint1"
   }
   
 ]
