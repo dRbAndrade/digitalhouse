@@ -1,6 +1,7 @@
 import { Component } from "react";
 import Card from './card.jsx'
 import '../styles/card-container.scss'
+import axios from "axios";
 
 export default class CardContainer extends Component{
 
@@ -13,16 +14,16 @@ export default class CardContainer extends Component{
 
   componentDidMount(){
     let data;
-    fetch('../projects.json')
-      .then(res=>{
-        return res.json()
+    axios('http://localhost:8080/portfolio')
+    .then(json=>{
+      data=json.data;
+      this.setState({
+        projects:data
       })
-      .then(json=>{
-        data=json;
-        this.setState({
-          projects:data
-        })
-      });
+    })
+    .catch(error=>{
+      console.log(error);
+    });
     
   }
 
