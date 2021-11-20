@@ -1,0 +1,52 @@
+@use 'var';
+.card{
+  
+  box-shadow: 0 0 1rem 0.2rem var.$shadow-color;
+  min-width: 250px;
+  max-width: 350px;
+  place-self: center;
+  padding: 0.5rem;
+  height: 100%;
+  transition: transform 0.2s linear;
+  text-decoration: none;
+  color:var.$text-color;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 0.5rem;
+
+  a{
+    place-self: center;
+    text-decoration: none;
+    color: inherit;
+    border-radius: 10rem;
+    background-color: #111;
+    padding: 0.4rem;
+    transition: transform 0.2s linear;
+    i{
+      margin-right: 0.5rem;
+    }
+    &:hover{
+      transform: scale(1.05);
+    }
+  }
+  cursor:pointer;
+
+  * {
+    margin-bottom: 0.5rem;
+  }
+
+  img{
+    min-width: 160px;
+    width: 100%;
+    height: 165px;
+  }
+
+  &:hover{
+    transform: scale(1.05);
+  }
+  img{
+    border-radius: 0.5rem;
+  }
+}

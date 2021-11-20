@@ -1,0 +1,15 @@
+@use 'var';
+.footer{
+
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    height: 10vh;
+    gap:1rem;
+    font-size: 1.5rem;
+    background-image: var.$secondary-gradient;
+  a{
+    text-decoration: none;
+    color:var.$text-color;
+  }
+}

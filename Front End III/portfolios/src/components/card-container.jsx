@@ -14,7 +14,7 @@ export default class CardContainer extends Component{
 
   componentDidMount(){
     let data;
-    axios('./projects.json')
+    axios('http://localhost:8080/portfolio')
     .then(json=>{
       data=json.data;
       this.setState({
