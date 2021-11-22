@@ -9,7 +9,7 @@ import java.sql.SQLException;
 
 public class DAO {
 
-    private static final Logger logger = Logger.getLogger(main.java.aula1027.Log4J.class);
+    private static final Logger logger = Logger.getLogger(DAO.class);
     private static Connection connection;
 
     public static Connection getConnection() throws ClassNotFoundException {

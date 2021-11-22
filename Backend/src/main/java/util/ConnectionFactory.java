@@ -7,7 +7,7 @@ import java.sql.*;
 
 public class ConnectionFactory {
 
-    private static final Logger logger = Logger.getLogger(main.java.aula1027.Log4J.class);
+    private static final Logger logger = Logger.getLogger(ConnectionFactory.class);
     private static Connection connection;
 
     public static Connection getConnection() {
