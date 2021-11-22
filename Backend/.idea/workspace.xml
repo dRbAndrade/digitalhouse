@@ -71,9 +71,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Interface" />
         <option value="HTML File" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -126,6 +126,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="aula1122" />
       <recent name="aula1118.mesadetrabalho" />
       <recent name="aula1116" />
       <recent name="aula1111.model" />
@@ -148,26 +149,13 @@
       <recent name="checkpoint1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DentistApplication">
+  <component name="RunManager" selected="Application.UserApplication">
     <configuration name="DentistApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="aula1122.DentistApplication" />
       <module name="Backend" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="aula1122.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LotteryApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="aula1111.LotteryApplication" />
-      <module name="Backend" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="aula1111.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -214,13 +202,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aula1122.UserApplication" />
+      <module name="Backend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="aula1122.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UserApplication" />
         <item itemvalue="Application.DentistApplication" />
         <item itemvalue="Application.PortfolioApp" />
         <item itemvalue="Application.SearchCEP" />
         <item itemvalue="Application.PokemonApplication" />
-        <item itemvalue="Application.LotteryApplication" />
       </list>
     </recent_temporary>
   </component>
