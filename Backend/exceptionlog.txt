@@ -1,0 +1,1 @@
+ERROR   2021-11-30 11:57:11,579 [http-nio-8080-exec-2] checkpoint2.DentistApp  - No class checkpoint2.models.Patient entity with id 5 exists!

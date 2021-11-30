@@ -14,7 +14,7 @@ public class DentistDAO implements DAO<Dentist> {
     private Connection connection;
 
     public DentistDAO(){
-        PropertyConfigurator.configure("log4j.properties");
+        PropertyConfigurator.configure("checkpoint2/log4j.properties");
         createTable();
     }
 
